@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- page title -->
+    <title>WildPix</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- body of website begins here -->
+  <body>
+    <!-- page navbar -->
+    <div id="header">
+      <nav id="main-nav">
+        <div id="logo-container">
+          <a href="/"
+            ><img id="logo-image" src="images/logo.png" alt="website logo" />
+          </a>
+        </div>
+        <div id="search-bar">
+          <img src="icons/search.png" alt="search icon" id="search-icon" />
+          <input
+            aria-label="Search images"
+            type="text"
+            id="search-input"
+            placeholder="Search images..."
+          />
+        </div>
+
+        <div class="theme-toggle">
+          <label>
+            <input
+              type="checkbox"
+              id="theme-switch"
+              aria-label="theme switch"
+            />
+            Dark Mode
+          </label>
+        </div>
+      </nav>
+    </div>
+    <!-- page navbar ends here -->
+
+    <!-- page banner begins here -->
+    <div class="banner">
+      <img class="banner-image" src="images/banner.jpg" alt="Banner" />
+      <div class="banner-overlay">
+        <div class="banner-text">
+          <div class="banner-title">Stunning wildlife images</div>
+          <div class="banner-subtext">
+            Over 1000+ high quality wildlife stock images.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- page banner ends here -->
+
+    <!-- image gallery begins here -->
+    <main>
+      <div class="gallery">
+        <!-- Image items here -->
+        <div class="gallery-item" data-caption="Elephant">
+          <img src="images/elephant.jpg" alt="Elephant" />
+          <div class="overlay">
+            <div class="caption">Elephant</div>
+          </div>
+        </div>
+        <div class="gallery-item" data-caption="Giraffe">
+          <img src="images/giraffe.jpg" alt="Giraffe" />
+          <div class="overlay">
+            <div class="caption">Giraffe</div>
+          </div>
+        </div>
+        <div class="gallery-item" data-caption="Lion">
+          <img src="images/lion.jpg" alt="Lion" />
+          <div class="overlay">
+            <div class="caption">Lion</div>
+          </div>
+        </div>
+        <div class="gallery-item" data-caption="Peacock">
+          <img src="images/peacock.jpg" alt="Peacock" />
+          <div class="overlay">
+            <div class="caption">Peacock</div>
+          </div>
+        </div>
+        <div class="gallery-item" data-caption="Pelican">
+          <img src="images/pelican.jpg" alt="Pelican" />
+          <div class="overlay">
+            <div class="caption">Pelican</div>
+          </div>
+        </div>
+        <div class="gallery-item" data-caption="Whale">
+          <img src="images/whale.jpg" alt="Whale" />
+          <div class="overlay">
+            <div class="caption">Whale</div>
+          </div>
+        </div>
+        <div class="gallery-item" data-caption="Wolve">
+          <img src="images/wolve.jpg" alt="Wolve" />
+          <div class="overlay">
+            <div class="caption">Wolve</div>
+          </div>
+        </div>
+        <div class="gallery-item" data-caption="Monkey">
+          <img src="images/monkey.jpg" alt="Monkey" />
+          <div class="overlay">
+            <div class="caption">Monkey</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- image gallery ends here -->
+
+    <!-- image lightbox -->
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-content">
+        <span class="close">&times;</span>
+        <img class="lightbox-image" id="lightbox-image" src="" alt="" />
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+      </div>
+    </div>
+
+    <!-- Footer begins here -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Footer Logo" />
+        </div>
+
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"
+            ><img src="icons/facebook.png" alt="Facebook"
+          /></a>
+          <a href="#" aria-label="Twitter"
+            ><img src="icons/twitter.png" alt="Twitter"
+          /></a>
+          <a href="#" aria-label="Instagram"
+            ><img src="icons/instagram.png" alt="Instagram"
+          /></a>
+        </div>
+        <div class="footer-copy">&copy; 2024 Wildpix. All rights reserved.</div>
+      </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <!-- javascript link -->
+    <script src="scripts.js"></script>
+  </body>
+  <!-- body of webpage ends here -->
+</html>
