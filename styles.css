@@ -12,11 +12,6 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-body.dark-theme {
-  background-color: #333;
-  color: #f0f0f0;
-}
-
 /* Navbar Styles */
 #logo-container {
   display: flex;
@@ -74,29 +69,6 @@ body.dark-theme {
 #search-input:focus {
   border: none;
   outline: none;
-}
-
-.theme-toggle {
-  font-size: 14px;
-}
-
-.theme-toggle label {
-  cursor: pointer;
-}
-
-/* Dark Mode Navbar Styles */
-body.dark-theme #header {
-  background-color: #222;
-  border-color: #444;
-}
-
-body.dark-theme #search-bar {
-  background-color: #444;
-}
-
-body.dark-theme #search-input {
-  background-color: #444;
-  color: #f0f0f0;
 }
 
 /* Banner Styles */
@@ -276,11 +248,4 @@ body.dark-theme #search-input {
 .footer-copy {
   font-size: 0.8rem;
   color: #666;
-}
-
-/* Dark Mode Footer Styles */
-body.dark-theme .footer {
-  background-color: #222;
-  color: #f0f0f0;
-  border-top: 1px solid #444;
 }
