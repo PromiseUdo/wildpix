@@ -155,6 +155,7 @@ body.dark-theme #search-input {
 .gallery-item {
   position: relative;
   overflow: hidden;
+  aspect-ratio: 1 / 1;
 }
 
 .gallery-item img {
